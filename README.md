@@ -38,3 +38,47 @@ The `DisplayTree.ps1` is a PowerShell script designed to display a tree-like �
 The script will display the directory structure in the terminal and save it to a text file 📝 in the current directory.
 
 ---
+
+👩‍💻 To be able to call `DisplayTree.ps1` from any directory, you have several options:
+
+### 🛠 Option 1: Add Script Directory to the PATH
+
+1. **📁 Move Script**: Move `DisplayTree.ps1` to a directory that is easy to remember and access. For example, you could create a `Scripts` folder in your user directory or on your `C:\` drive.
+
+2. **🌐 Add to PATH**: Add that directory to your system's `PATH` environment variable.
+
+3. **🔄 Open a New PowerShell Session**: After this, you can call `DisplayTree.ps1` from any directory.
+
+   - ❗ Note: Incorrectly modifying the `PATH` variable can lead to issues. Make sure you know what you're doing before modifying it.
+
+### 🛠 Option 2: Create a PowerShell Alias
+
+1. **📝 Open Your PowerShell Profile**: Enter `notepad $PROFILE` in a PowerShell window. This will open your PowerShell profile in Notepad. If the profile doesn't exist, you'll be prompted to create one.
+
+2. **👍 Add Alias**: Add the following line to your PowerShell profile, replacing `C:\path\to\DisplayTree.ps1` with the full path to your script:
+
+   ```powershell
+   Set-Alias displaytree "C:\path\to\DisplayTree.ps1"
+   ```
+3. **💾 Save and Close Notepad**: Save the changes and close Notepad.
+
+4. **🔄 Reload Profile or Restart PowerShell**: For the changes to take effect, either reload your profile with `. $PROFILE` or close and reopen PowerShell.
+
+After doing this, you should be able to use the command `displaytree` in PowerShell, no matter your current directory, to run your `DisplayTree.ps1` script.
+
+### 🛠 Option 3: Use a Fully Qualified Path
+
+- 📍 This doesn't allow you to run it from "anywhere," but you can always run the script using its fully qualified path:
+  
+  ```powershell
+  & "C:\path\to\DisplayTree.ps1"
+  ```
+  
+Any of these methods will allow you to execute the script from any directory. Choose the one that best suits your needs 🌟.
+
+---
+
+[ChatGPT Link](https://chat.openai.com/share/b9f6a7b7-ccad-4b69-8430-60370836b561)
+
+---
+
