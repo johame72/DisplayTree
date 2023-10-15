@@ -1,7 +1,76 @@
 # DisplayTree.ps1
 `DisplayTree.ps1` is a PowerShell script that generates a tree-like view of a directory's structure, displaying it in the terminal and saving it to a text file. The output text file is uniquely named with an ISO Date-Time prefix for easy identification.
 Example: `20231015T091656_DisplayTree.ps1`
-
+|--- build
+    |--- static
+        |--- css
+            |--- main.fcd793d9.css
+            |--- main.fcd793d9.css.map
+        |--- js
+            |--- 787.000ff687.chunk.js
+    |--- asset-manifest.json
+    |--- favicon.ico
+    |--- index.html
+    |--- logo192.png
+    |--- logo512.png
+    |--- manifest.json
+    |--- robots.txt
+|--- node_modules
+|--- public
+    |--- favicon.ico
+    |--- index.html
+    |--- logo192.png
+    |--- logo512.png
+    |--- manifest.json
+    |--- robots.txt
+|--- src
+    |--- actions
+    |--- components
+        |--- ActionButtons
+            |--- ActionButtons.css
+            |--- ActionButtons.jsx
+        |--- ChatGPT4
+            |--- ChatGPT4.js
+        |--- ConvertedContent
+            |--- ConvertedContent.css
+            |--- ConvertedContent.jsx
+        |--- Dropdown
+            |--- Dropdown.css
+            |--- Dropdown.jsx
+        |--- Header
+            |--- Header.css
+            |--- Header.jsx
+        |--- Settings
+            |--- ChatGPT4Settings.js
+            |--- ModelSettings.js
+            |--- Settings.css
+            |--- Settings.js
+    |--- containers
+        |--- App
+            |--- App.css
+            |--- App.js
+            |--- RichTextEditor.js
+    |--- contexts
+    |--- reducers
+    |--- services
+    |--- utils
+        |--- constants.js
+        |--- openai.js
+    |--- App.test.js
+    |--- index.css
+    |--- index.js
+    |--- logo.svg
+    |--- reportWebVitals.js
+    |--- setupTests.js
+|--- .env
+|--- .eslintrc.js
+|--- .gitignore
+|--- 20231015T090113_tree.txt
+|--- LICENSE
+|--- package-lock.json
+|--- package.json
+|--- README.md
+|--- vercel.json
 ---
 
 ## 📑 Index / Contents
