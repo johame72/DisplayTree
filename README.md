@@ -4,7 +4,7 @@
 Example output and typical example output filename: `20231015T091656_DisplayTree.ps1`
 
 ```
-RootDirectory
+Your_Root_Directory
 |--- build
     |--- static
         |--- css
