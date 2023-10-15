@@ -4,10 +4,6 @@ Example: `20231015T091656_DisplayTree.ps1`
 
 ---
 
-# DisplayTree.ps1
-`DisplayTree.ps1` is a PowerShell script that generates a tree-like view of a directory's structure, displaying it in the terminal and saving it to a text file. The output text file is uniquely named with an ISO Date-Time prefix for easy identification.  
-Example: `20231015T091656_Display_Tree.ps1`
-
 ## 📑 Index / Contents
 
 - [📖 Overview](#-overview)
@@ -27,7 +23,7 @@ Example: `20231015T091656_Display_Tree.ps1`
 
 ## 📖 Overview
 
-The `DisplayTree.ps1` is a PowerShell script designed to display a tree-like 🌳 directory structure of a given directory. It is especially tailored for projects and can be run from any location 📍. The script displays both directories 📂 and files 📄, and also writes this structure to a text file 📝 with a unique ISO Date-Time 🕒 prefix. It includes an exception to show the `node_modules` directory 📦 without diving into its internal structure.
+The `DisplayTree.ps1` is a PowerShell script designed to display a tree-like 🌳 directory structure of a given directory. It is specially tailored for projects and can be run from any location 📍. The script displays both directories 📂 and files 📄 and also writes this structure to a text file 📝 with a unique ISO Date-Time 🕒 prefix. It includes an exception to show the `node_modules` directory 📦 without diving into its internal structure.
 
 ## 🛠 Prerequisites
 
@@ -50,7 +46,7 @@ The `DisplayTree.ps1` is a PowerShell script designed to display a tree-like �
 
 ### 🏃‍♂️ Running the Script
 
-1. 💻 Open PowerShell terminal.
+1. 💻 Open the PowerShell terminal.
 2. 📂 Navigate to the directory you wish to scan.
 3. 🎬 Run `.\DisplayTree.ps1` or use the alias if you set one up.
 
@@ -62,7 +58,7 @@ The script will display the directory structure in the terminal and save it to a
 
 ### 🛠 Option 1: Add Script Directory to the PATH
 
-1. **📁 Move Script**: Move `DisplayTree.ps1` to a directory that is easy to remember and access. For example, you could create a `Scripts` folder in your user directory or on your `C:\` drive.
+1. **📁 Move Script**: Move `DisplayTree.ps1` to a directory that is easy to remember and access. For example, you could create a `Scripts` folder in your user directory or your `C:\` drive.
 
 2. **🌐 Add to PATH**: Add that directory to your system's `PATH` environment variable.
 
@@ -72,7 +68,7 @@ The script will display the directory structure in the terminal and save it to a
 
 ### 🛠 Option 2: Create a PowerShell Alias
 
-1. **📝 Open Your PowerShell Profile**: Enter `notepad $PROFILE` in a PowerShell window. This will open your PowerShell profile in Notepad. If the profile doesn't exist, you'll be prompted to create one.
+1. **📝 Open Your PowerShell Profile**: Enter `notepad $PROFILE` in a PowerShell window. This will open your PowerShell profile in Notepad. You'll be prompted to create one if the profile doesn't exist.
 
 2. **👍 Add Alias**: Add the following line to your PowerShell profile, replacing `C:\path\to\DisplayTree.ps1` with the full path to your script:
 
