@@ -4,6 +4,25 @@ Example: `20231015T091656_Display_Tree.ps1`
 
 ---
 
+# DisplayTree.ps1
+`DisplayTree.ps1` is a PowerShell script that generates a tree-like view of a directory's structure, displaying it in the terminal and saving it to a text file. The output text file is uniquely named with an ISO Date-Time prefix for easy identification.  
+Example: `20231015T091656_Display_Tree.ps1`
+
+## 📑 Index / Contents
+
+- [📖 Overview](#-overview)
+- [🛠 Prerequisites](#-prerequisites)
+- [✨ Features](#-features)
+- [🚀 How to Use](#-how-to-use)
+  - [🏁 Initial Setup](#-initial-setup)
+  - [🏃‍♂️ Running the Script](#-running-the-script)
+- [👩‍💻 Options for Accessibility](#-options-for-accessibility)
+  - [🛠 Option 1: Add Script Directory to the PATH](#-option-1-add-script-directory-to-the-path)
+  - [🛠 Option 2: Create a PowerShell Alias](#-option-2-create-a-powershell-alias)
+  - [🛠 Option 3: Use a Fully Qualified Path](#-option-3-use-a-fully-qualified-path)
+
+---
+
 # 🌳 DisplayTree PowerShell Script
 
 ## 📖 Overview
